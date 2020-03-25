@@ -1127,8 +1127,8 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   padding: 5vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1153,6 +1153,10 @@ a {
   font-size: 5vh;
   line-height: 5vh;
   font-weight: 600;
+}
+
+.modal-text {
+  text-align: center;
 }
 
 .modal-image {
