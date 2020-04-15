@@ -335,10 +335,6 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-style: solid;
-  border-width: 0.5vh;
-  border-color: #d64729;
-  border-radius: 5vh;
   background-color: #fafafa;
   text-align: center;
 }
@@ -522,20 +518,6 @@ a {
   margin-bottom: 1vh;
   font-size: 3vh;
   line-height: 3vh;
-}
-
-.map-heading.spaced {
-  margin-top: 0vh;
-  margin-bottom: 5vh;
-}
-
-.map-heading.contact {
-  margin-top: 0vh;
-  margin-bottom: 2vh;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
 }
 
 .map-text {
@@ -749,10 +731,6 @@ a {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-}
-
-.content-section.white {
-  background-color: #fafafa;
 }
 
 .content-section.cream {
@@ -1007,23 +985,6 @@ a {
   z-index: 9999;
 }
 
-.form-success {
-  background-color: #94aba1;
-  font-weight: 600;
-}
-
-.form-error {
-  background-color: #d64729;
-  color: #f5f5f5;
-  font-weight: 600;
-}
-
-.form-field {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #010101;
-}
-
 .section-details {
   margin-bottom: 5vh;
 }
@@ -1099,10 +1060,7 @@ a {
 .modal-container {
   position: fixed;
   z-index: 9999;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100vw;
   height: 100vh;
   -webkit-box-orient: vertical;
