@@ -884,7 +884,6 @@ a {
 
 .content-left.contact {
   width: 50%;
-  padding-right: 1vw;
   text-align: center;
 }
 
@@ -1143,11 +1142,16 @@ a {
   color: #d64729;
 }
 
-.div-block {
+.horizontal {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .space-div {
