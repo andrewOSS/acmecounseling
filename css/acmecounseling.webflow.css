@@ -322,7 +322,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 25vw;
-  padding: 2vh 2vw;
+  padding: 5vh 5vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -746,7 +746,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  padding: 10vh 10vw;
+  padding: 10vh 10%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -898,7 +898,7 @@ a {
 
 .content-left.staff {
   width: 100%;
-  margin-bottom: 1vh;
+  margin-bottom: 5vh;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
@@ -1295,8 +1295,9 @@ a {
   }
   .overview-card {
     width: auto;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding: 5vh 10vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1400,6 +1401,7 @@ a {
   }
   .content-left {
     width: 100%;
+    margin-bottom: 5vh;
   }
   .content-left.contact {
     width: 100%;
