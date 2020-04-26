@@ -1328,6 +1328,11 @@ a {
     -ms-flex-align: stretch;
     align-items: stretch;
   }
+  .overview-button {
+    padding: 2vh 4vw;
+    font-size: 3vh;
+    line-height: 3vh;
+  }
   .overview-info {
     width: 100%;
   }
