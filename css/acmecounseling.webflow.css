@@ -347,7 +347,7 @@ a {
 
 .section-heading {
   margin-top: 0vh;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
   font-size: 4vh;
   line-height: 5vh;
 }
@@ -1276,10 +1276,6 @@ a {
   .hero-right {
     width: 80%;
   }
-  .hero-h1 {
-    font-size: 3.5vh;
-    line-height: 3.5vh;
-  }
   .hero-h2 {
     font-size: 2vh;
     line-height: 2.5vh;
@@ -1318,7 +1314,8 @@ a {
     flex-direction: column;
   }
   .section-heading {
-    margin-bottom: 3vh;
+    font-size: 3vh;
+    line-height: 4vh;
   }
   .overview-card-box {
     -webkit-box-orient: vertical;
@@ -1415,7 +1412,6 @@ a {
   }
   .content-right.contact {
     width: 100%;
-    margin-top: 1vh;
     padding-left: 0vw;
     text-align: center;
   }
