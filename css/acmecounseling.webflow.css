@@ -1142,7 +1142,7 @@ a {
   color: #d64729;
 }
 
-.horizontal {
+.spacer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1247,7 +1247,26 @@ a {
     cursor: pointer;
   }
   .hero-section {
-    height: 50vh;
+    height: auto;
+    padding-top: 10vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .hero-left {
+    width: 100%;
+    margin-top: 10vh;
+    padding-right: 10vw;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hero-right {
+    width: 80%;
   }
   .hero-h1 {
     font-size: 3.5vh;
@@ -1316,9 +1335,42 @@ a {
   .banner {
     text-align: center;
   }
+  .banner.forms {
+    display: none;
+  }
+  .hero2-section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
   .hero2-left {
-    width: 50%;
+    width: 80%;
+    margin-top: 5vh;
+    padding-right: 0vw;
     padding-left: 0vw;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hero2-right {
+    width: 80%;
+  }
+  .hero2-heading {
+    margin-bottom: 0vh;
   }
   .content-container {
     -webkit-box-orient: vertical;
@@ -1345,7 +1397,7 @@ a {
   }
   .content-left.contact {
     width: 100%;
-    margin-bottom: 1vh;
+    margin-bottom: 10vh;
     padding-right: 0vw;
   }
   .content-right {
@@ -1356,6 +1408,17 @@ a {
     margin-top: 1vh;
     padding-left: 0vw;
     text-align: center;
+  }
+  .spacer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
