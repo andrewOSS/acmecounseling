@@ -907,6 +907,7 @@ a {
 
 .content-left.contact {
   width: 50%;
+  padding-top: 5vh;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
