@@ -251,6 +251,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   margin-top: 1vh;
+  margin-bottom: 2vh;
   padding: 1.5vh 2vw;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -1082,10 +1083,7 @@ a {
 .modal-container {
   position: fixed;
   z-index: 9999;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100vw;
   height: 100vh;
   -webkit-box-orient: vertical;
@@ -1261,6 +1259,14 @@ a {
 
 .email {
   font-weight: 600;
+}
+
+.bbb-seal-tablet {
+  display: none;
+}
+
+.bbb-seal-mobile {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -1595,6 +1601,14 @@ a {
   .horiz {
     margin-top: 0vh;
   }
+
+  .bbb-seal-desktop {
+    display: none;
+  }
+
+  .bbb-seal-tablet {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1716,6 +1730,14 @@ a {
 
   .hero-icon {
     width: 7vw;
+  }
+
+  .bbb-seal-tablet {
+    display: none;
+  }
+
+  .bbb-seal-mobile {
+    display: block;
   }
 }
 
