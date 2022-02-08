@@ -493,6 +493,10 @@ a {
   color: #fafafa;
 }
 
+.banner.forms {
+  display: none;
+}
+
 .banner-section-heading {
   margin-top: 0px;
   margin-bottom: 2vh;
@@ -1083,9 +1087,6 @@ a {
 .modal-container {
   position: fixed;
   z-index: 9999;
-  /*display: -webkit-box;*/
-  /*display: -webkit-flex;*/
-  /*display: -ms-flexbox;*/
   display: none;
   width: 100vw;
   height: 100vh;
