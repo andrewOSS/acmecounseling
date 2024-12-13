@@ -50,7 +50,7 @@ a {
 }
 
 .nav-section {
-  background-color: rgba(250, 250, 250, .7);
+  background-color: #fafafab3;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -309,6 +309,10 @@ a {
   display: flex;
 }
 
+.map-section.hidden {
+  display: none;
+}
+
 .banner {
   text-align: center;
   flex-direction: column;
@@ -323,7 +327,7 @@ a {
   color: #fafafa;
 }
 
-.banner.forms {
+.banner.forms, .banner.hidden {
   display: none;
 }
 
@@ -630,10 +634,7 @@ a {
 .facebook {
   z-index: 9999;
   position: fixed;
-  top: auto;
-  bottom: 5vh;
-  left: auto;
-  right: 5vw;
+  inset: auto 5vw 5vh auto;
 }
 
 .section-details {
@@ -666,10 +667,7 @@ a {
   width: 50vh;
   height: 50vh;
   position: absolute;
-  top: auto;
-  bottom: -8vh;
-  left: auto;
-  right: auto;
+  inset: auto auto -8vh;
 }
 
 .dog-picture {
@@ -692,7 +690,7 @@ a {
 
 .modal-container {
   z-index: 9999;
-  background-color: rgba(0, 0, 0, .7);
+  background-color: #000000b3;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -737,17 +735,14 @@ a {
 
 .close-modal {
   color: var(--black2);
-  border: .5vh solid rgba(0, 0, 0, 0);
+  border: .5vh solid #0000;
   padding: 2vh;
   font-size: 4vh;
   line-height: 4vh;
   text-decoration: none;
   transition: all .3s;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% auto auto;
 }
 
 .close-modal:hover {
@@ -875,10 +870,7 @@ a {
     line-height: 10vh;
     display: flex;
     position: absolute;
-    top: 0%;
-    bottom: auto;
-    left: auto;
-    right: 0%;
+    inset: 0% 0% auto auto;
   }
 
   .hero-section {
